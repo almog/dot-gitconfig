@@ -6,7 +6,7 @@
 	tool = opendiff
 [diff]
 [core]
-	excludesfile = /Users/almog/.gitignore-global
+	excludesfile = ~/.gitignore-global
 	mergeoptions = --no-edit
 [alias]
 	unstage = reset HEAD --
