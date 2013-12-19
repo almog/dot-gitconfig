@@ -1,0 +1,14 @@
+[push]
+	default = tracking
+[color]
+ 	ui = always
+[merge]
+	tool = opendiff
+[diff]
+[core]
+	excludesfile = /Users/almog/.gitignore-global
+	mergeoptions = --no-edit
+[alias]
+	unstage = reset HEAD --
+[include]
+  path = ./gitconfig.private
