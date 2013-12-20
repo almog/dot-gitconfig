@@ -11,4 +11,4 @@
 [alias]
 	unstage = reset HEAD --
 [include]
-  path = ./gitconfig.private
+  path = ./.gitconfig.private
