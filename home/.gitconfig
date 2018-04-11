@@ -1,7 +1,10 @@
+[init]
+  templatedir = ~/.git_template
+  ctags = "!sh -c '[ -f .git/hooks/ctags ] || git init; .git/hooks/ctags' git-ctags"
 [push]
 	default = tracking
 [color]
- 	ui = always
+ 	ui = auto
 [merge]
 	tool = opendiff
 [diff]
@@ -12,3 +15,5 @@
 	unstage = reset HEAD --
 [include]
   path = ./.gitconfig.private
+[credential]
+	helper = osxkeychain
