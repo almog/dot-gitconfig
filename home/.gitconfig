@@ -17,3 +17,6 @@
   path = ./.gitconfig.private
 [credential]
 	helper = osxkeychain
+[user]
+	name = Almog Kurtser
+	email = akurtser@gmail.com
