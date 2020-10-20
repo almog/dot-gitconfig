@@ -11,6 +11,7 @@
 [core]
 	excludesfile = ~/.gitignore-global
 	mergeoptions = --no-edit
+	attributesfile = ~/.gitattributes
 [alias]
 	unstage = reset HEAD --
 [include]
