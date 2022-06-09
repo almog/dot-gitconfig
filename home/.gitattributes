@@ -1,9 +1,6 @@
 *.rb diff=ruby
 *.rake diff=ruby
 
-[include]
-  path = ./.gitattributes.python
-
 # Basic .gitattributes for a python repo.
 
 # Source files

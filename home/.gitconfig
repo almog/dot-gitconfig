@@ -6,7 +6,7 @@
 [color]
  	ui = auto
 [merge]
-	tool = opendiff
+  tool = vimdiff
 [diff]
 [core]
 	excludesfile = ~/.gitignore-global
@@ -21,3 +21,5 @@
 [user]
 	name = Almog Kurtser
 	email = akurtser@gmail.com
+[merge]
+  conflictStyle = zdiff3
